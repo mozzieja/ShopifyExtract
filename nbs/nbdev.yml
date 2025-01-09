@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "ShopifyExtract"
+  site-url: "https://mozzieja.github.io/ShopifyExtract"
+  description: "Download your ShopifyData into a local database"
+  repo-branch: main
+  repo-url: "https://github.com/mozzieja/ShopifyExtract"
