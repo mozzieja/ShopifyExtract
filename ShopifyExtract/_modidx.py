@@ -10,4 +10,6 @@ d = { 'settings': { 'branch': 'main',
                                      'ShopifyExtract.core.fetch_new_or_updated_customers': ( 'core.html#fetch_new_or_updated_customers',
                                                                                              'ShopifyExtract/core.py'),
                                      'ShopifyExtract.core.store_customers_in_db': ( 'core.html#store_customers_in_db',
-                                                                                    'ShopifyExtract/core.py')}}}
+                                                                                    'ShopifyExtract/core.py')},
+            'ShopifyExtract.products': { 'ShopifyExtract.products.fetch_all_products': ( 'products.html#fetch_all_products',
+                                                                                         'ShopifyExtract/products.py')}}}

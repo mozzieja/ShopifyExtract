@@ -300,16 +300,17 @@ def store_customers_in_db(customers, db_path="shopify_data.db"):
     conn.close()
 
 # %% ../nbs/00_core.ipynb 12
-# use this to run
 #create_schema("shopify_data.db")
 
-# %% ../nbs/00_core.ipynb 16
+# %% ../nbs/00_core.ipynb 17
 #all_customers = fetch_all_customers()
 
-# %% ../nbs/00_core.ipynb 19
+# %% ../nbs/00_core.ipynb 20
+# Note this will insert or update existing records so safe to rerun - however as it does retreive all records only do this if you are wanting to ensure the table is fully up tio date.
+# otherwise just use the fetch_new_or_updated_customers
 #store_customers_in_db(all_customers, "shopify_data.db")
 
-# %% ../nbs/00_core.ipynb 21
+# %% ../nbs/00_core.ipynb 22
 # Only get new customers or customers with updated information
 def fetch_new_or_updated_customers():
     customers = []
@@ -382,5 +383,5 @@ def fetch_new_or_updated_customers():
 
 
 
-# %% ../nbs/00_core.ipynb 22
+# %% ../nbs/00_core.ipynb 23
 #fetch_new_or_updated_customers()
